@@ -1,6 +1,6 @@
 ## 📨 Chat with Gmail Inbox 
 
-LLM app with RAG to chat with Gmail in just 30 lines of Python Code. The app uses Retrieval Augmented Generation (RAG) to provide accurate answers to questions based on the content of your Gmail Inbox.
+LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation (RAG) to provide accurate answers to questions based on the content of your Gmail Inbox.
 
 ### Features
 
@@ -10,18 +10,7 @@ LLM app with RAG to chat with Gmail in just 30 lines of Python Code. The app use
 
 ### Installation
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-```
-2. Install the required dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up your Google Cloud project and enable the Gmail API:
+1. Set up your Google Cloud project and enable the Gmail API:
 
 - Go to the [Google Cloud Console](https://console.cloud.google.com/) and create a new project.
 - Navigate to "APIs & Services > OAuth consent screen" and configure the OAuth consent screen.
@@ -29,14 +18,6 @@ pip install -r requirements.txt
 - Enable the Gmail API and create OAuth client ID credentials.
 - Download the credentials in JSON format and save them as `credentials.json` in your working directory.
 
-4. Get your OpenAI API Key
+2. Get your OpenAI API Key
 
 - Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
-
-4. Run the Streamlit App
-
-```bash
-streamlit run chat_gmail.py
-```
-
-
